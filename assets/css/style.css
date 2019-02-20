@@ -1,11 +1,15 @@
+body{
+    background-image: url(../images/nfl.jpg);
+}
 .jumbotron{
     padding: 0px;
     margin-bottom: 14px;
     margin-top:0px;
+    text-align: center;
 }
 footer {
-    background-color: #555;
-    color: white;
+    background-color: #e9ecef;
+    color: black;
     padding: 15px;
     position: absolute;
     bottom:0px;
@@ -20,3 +24,10 @@ footer {
     background-color: rgb(245, 70, 70);
     color: white;
   }
+  #guessArea{
+      background-color: white;
+  }
+  #clueBox{
+    background-color: white;
+}
+ 

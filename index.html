@@ -15,16 +15,22 @@
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                <h1 class="display-4">NFL TEAMS</h1>
+                <p class="lead">It's crunch time! Guess the NFL Team before your sacked!
                 </p>
             </div>
         </div>
     </header>
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-md-5">
-                One of three columns
+            <div class="col-md-5"id="clueArea">
+               <div class="row">
+                   <div class="col-sm-12" id="clueBox">
+                        <img src="assets/images/nfl_logo.png" alt="nfl">
+                        <p> The clue to the team goes here, it needs to be alot of information</p>
+                   </div>
+               
+               </div> 
             </div>
             <div class="col-md-2">
                     <ul class="list-group">
@@ -35,6 +41,9 @@
                             <li class="list-group-item" id="correctLetters"></li>
                             <li class="list-group-item">Wrong Letters</li>
                             <li class="list-group-item" id="wrongLetters"></li>
+                            <li class="list-group-item">Plays Left
+                                    <span class="badge badge-primary badge-pill">0</span>
+                                </li>
                             <li class="list-group-item">Wins
                                 <span class="badge badge-success badge-pill">0</span>
                             </li>
@@ -43,18 +52,16 @@
                             </li>
                           </ul>
             </div>
-            <div class="col-md-5">
-                    One of three columns
+            <div class="col-md-5" id="guessArea">
+                    <img src="assets/images/touchdown.png" alt="touchdown">
+                    <p id="guessBox">_ _ _ _ _ _ _ _ _</p>
+                    
                 </div>
         </div>
     </div>
 
-
-
-
-    <script>
-
-
+    <script src="assets/javascript/game.js">
+        
     </script>
     <footer class="container-fluid text-center">
         <p>Footer Text</p>
